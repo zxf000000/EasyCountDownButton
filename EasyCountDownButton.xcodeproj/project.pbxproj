@@ -15,6 +15,8 @@
 		4E9B6A0A243EC2F600833CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B6A08243EC2F600833CBF /* LaunchScreen.storyboard */; };
 		4E9B6A15243EC2F700833CBF /* EasyCountDownButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B6A14243EC2F700833CBF /* EasyCountDownButtonTests.swift */; };
 		4E9B6A20243EC2F700833CBF /* EasyCountDownButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B6A1F243EC2F700833CBF /* EasyCountDownButtonUITests.swift */; };
+		4E9B6A30243EC34F00833CBF /* UIButton+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B6A2F243EC34F00833CBF /* UIButton+Add.swift */; };
+		4E9B6A32243EC37000833CBF /* NSTimer+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B6A31243EC37000833CBF /* NSTimer+Add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4E9B6A1B243EC2F700833CBF /* EasyCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9B6A1F243EC2F700833CBF /* EasyCountDownButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCountDownButtonUITests.swift; sourceTree = "<group>"; };
 		4E9B6A21243EC2F700833CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9B6A2F243EC34F00833CBF /* UIButton+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Add.swift"; sourceTree = "<group>"; };
+		4E9B6A31243EC37000833CBF /* NSTimer+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Add.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		4E9B69FC243EC2F200833CBF /* EasyCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
+				4E9B6A2D243EC2FE00833CBF /* EasyCountDownButton */,
 				4E9B69FD243EC2F200833CBF /* AppDelegate.swift */,
 				4E9B69FF243EC2F200833CBF /* SceneDelegate.swift */,
 				4E9B6A01243EC2F200833CBF /* ViewController.swift */,
@@ -126,6 +131,23 @@
 				4E9B6A21243EC2F700833CBF /* Info.plist */,
 			);
 			path = EasyCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+		4E9B6A2D243EC2FE00833CBF /* EasyCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				4E9B6A2E243EC30D00833CBF /* Source */,
+			);
+			path = EasyCountDownButton;
+			sourceTree = "<group>";
+		};
+		4E9B6A2E243EC30D00833CBF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4E9B6A31243EC37000833CBF /* NSTimer+Add.swift */,
+				4E9B6A2F243EC34F00833CBF /* UIButton+Add.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9B6A32243EC37000833CBF /* NSTimer+Add.swift in Sources */,
 				4E9B6A02243EC2F200833CBF /* ViewController.swift in Sources */,
 				4E9B69FE243EC2F200833CBF /* AppDelegate.swift in Sources */,
 				4E9B6A00243EC2F200833CBF /* SceneDelegate.swift in Sources */,
+				4E9B6A30243EC34F00833CBF /* UIButton+Add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
