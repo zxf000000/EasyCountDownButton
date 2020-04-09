@@ -2,8 +2,7 @@
 //  NSTimer+Add.swift
 //  HealthInnovationTech
 //
-//  Created by 壹九科技1 on 2020/4/7.
-//  Copyright © 2020 YJKJ. All rights reserved.
+//  Created by ZXF on 2020/4/7.
 //
 
 import Foundation

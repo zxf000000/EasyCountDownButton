@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  EasyCountDownButton
 //
-//  Created by 壹九科技1 on 2020/4/9.
-//  Copyright © 2020 zxf. All rights reserved.
+//  Created by ZXF on 2020/4/7.
 //
 
 import UIKit
